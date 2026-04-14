@@ -34,6 +34,12 @@ def my_floor(x: float) -> int:
     """Return floor(x) without using math.floor."""
     # === TODO ===
     # Your code here
+    t = int(x)
+
+    if x >= 0 or x == t:
+        return t
+    else:
+        return t - 1
     pass
     # === END TODO ===
 
